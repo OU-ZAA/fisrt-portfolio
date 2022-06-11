@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css">
+  <title>Portfolio</title>
+</head>
+<body>
+  <header class="container">
+    <a href="#">
+      <img class="logo" src="images/logo.jpg" alt="logo">
+    </a>
+    <nav id="navbar">
+      <a class="nav-link" href="#welcome-section">Introduction</a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#projects">Projects</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </nav> 
+  </header>
+  <main>
+    <section id="welcome-section" class="intro">
+      <article class="hero-article">
+        <h1 class="heading">I design and develop websites.</h1>
+        <p class="hero-p">I'm a self-taught front-end developer with a passion for great design and user experiences.</p>
+      </article>
+    </section>
+    <section id="projects">
+      <h2 class="projects-title">Projects</h2>
+      <div class="projects-grid">
+        <a class="project project-tile" href="#" target="_blank">
+          <img
+            class="project-image"
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+            alt="project"
+          />
+          <h3 class="project-title">
+            Tribute Page
+          </h3>
+        </a>
+        <a
+          href="https://codepen.io/freeCodeCamp/full/zNqgVx"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+            alt="project"
+          />
+          <h3 class="project-title">
+            Random Quote Machine
+          </h3>
+        </a>
+        <a
+          href="https://codepen.io/freeCodeCamp/full/zNqgVx"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+            alt="project"
+          />
+          <h3 class="project-title">
+            JavaScript Calculator
+          </h3>
+        </a>
+        <a
+          href="https://codepen.io/freeCodeCamp/full/zNqgVx"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+            alt="project"
+          />
+          <h3 class="project-title">
+            Map Data Across the Globe
+          </h3>
+        </a>
+        <a
+          href="#"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+            alt="project"
+          />
+          <h3 class="project-title">
+            Wikipedia Viewer
+          </h3>
+        </a>
+        <a
+          href="#"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+            alt="project"
+          />
+          <h3 class="project-title">
+            Tic Tac Toe Game
+          </h3>
+        </a>
+      </div>
+    </section>
+    <section id="about">
+      <h2>About</h2>
+      <p class="p-heading">Get a brief look at who I am and what I do. If you would like to know more about me and my interests</p>
+      <div class="flex">
+        <article>
+          <p>My name is Mohammed Ou-zaa. I am 22 years old, I live in Tighassaline, Morocco, and I'm a self-taught designer and developer.</p>
+          <p>Gaming has been my main focus for many years, but I have the past year shifted my focus to front-end development, which I have developed a great passion for. </p>
+          <p>I enjoy the constant change in the technologies used in the area and love diving into new frameworks and technologies. </p>
+          <p>I try to challenge myself by diving head-first into the unknown, learning the skills along the way, needed to complete the task.</p>
+        </article>
+        <div>
+          <img class="about-img" src="images/profile.jpg" alt="pic of mine">
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contact-title">
+        <h2>Let's work together...</h2>
+        <p class="p-heading">Do not hesitate to contact me through the form here regardless of the subject.</p>
+      </div>
+      <form action="">
+        <div class="flex">
+          <div class="col-1">
+            <label for="name">What's your name?</label>
+            <input class="input" type="text" name="name" id="name" placeholder="Enter your name here">
+            <label for="email">Where can I reach you?</label>
+            <input class="input" type="email" name="name" id="email" placeholder="Enter your email address here">
+          </div>
+          <div class="col-2">
+            <label for="message">What's your message?</label>
+            <textarea class="input" name="message" id="message" placeholder="Hi Ou-zaa, let's work!"></textarea>
+            <input class="button" type="submit" value="Send it">
+          </div>
+        </div>
+      </form>
+      <div class="contact-links">
+        <a
+          href="https://facebook.com/freecodecamp"
+          target="_blank"
+          class="btn"
+          ><i class="fab fa-instagram"></i> Instagram</a
+        >
+        <a
+          id="profile-link"
+          href="https://github.com/OU-ZAA"
+          target="_blank"
+          class="btn"
+        ><i class="fab fa-github"></i> GitHub</a>
+        <a
+          href="https://twitter.com/MohamedOuzaa1"
+          target="_blank"
+          class="btn"
+          ><i class="fab fa-twitter"></i> Twitter</a
+        >
+      </div>
+    </section>
+  </main>
+  <footer> 
+    <p>
+      Created by Ou-zaa Studio &copy; all copyrights reserved  
+    </p>
+  </footer>
+</body>
+</html>
