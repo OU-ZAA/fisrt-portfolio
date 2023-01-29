@@ -49,7 +49,7 @@ body{
   opacity: 1;
 }
 .intro{
-  background-image: url(/images/dark-hero.png);
+  background-image: url(images/dark-hero.png);
   background-repeat: no-repeat;
   background-position: right -4rem center;
   height: 100vh;
